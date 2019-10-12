@@ -11,8 +11,6 @@ DWORD WINAPI reader(void* lpParameter)
 	return 0;
 }
 
-
-
 DWORD WINAPI writer(void* lpParameter)
 {
 	for (int i = 1; i <= 10; i++)
@@ -24,8 +22,6 @@ DWORD WINAPI writer(void* lpParameter)
 	}
 	return 0;
 }
-
-
 
 int _tmain(int argc, _TCHAR* argv[])
 {
